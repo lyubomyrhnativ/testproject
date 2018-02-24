@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ajaxForm</title>
+	<link rel="stylesheet" href="style.css">
+	<script src='script.js'></script>
+</head>
+<body>
+	<div>Forms</div>
+	<form class='myform' action='/send' method='POST'>
+		<input type="text" name='username' placeholder="username">
+		<input type="text" name='password' placeholder="password">
+		<input type="submit" value='Send'>
+	</form>
+
+	<form class='myform'>
+		<input type="text" id='username1' placeholder="username">
+		<input type="text" id='password1' placeholder="password">
+		<input type="button" id='btnSend' value='SendAjax'>
+		<input type="button" id='btnSend1' value='postAjax'>
+	</form>
+	<input type="button" id="btnFile" value="getFile">
+	<div id="filedata"></div>
+	<form class='myform'>
+		<input type="text" id='username' placeholder="username">
+		<input type="text" id='password' placeholder="password">
+		<input type="text" id='age' placeholder="password">
+		<input type="button" id='addUser' value='addUser'>
+		
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+1) npm install express, правила створення папки node_module, npm config list,
+   локальні, глобальні та загальнодоступні модулі
+
+2) створення файлу package.json (npm init), npm install express --save, 
+   npm i express --save-dev
+
+3) npm install на основі package.json
+
+4) створюєм форму на клєнті і задаєм стилі style.css
+
+5) Додаєм на сервері віддачу статичного контенту app.use(express.static(__dirname))
+
+6) реалізуєм get-запит
+

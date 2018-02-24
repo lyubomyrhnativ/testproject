@@ -1,0 +1,21 @@
+{
+  "name": "ajaxproject",
+  "version": "1.0.0",
+  "description": "ajax",
+  "main": "server.js",
+  "scripts": {
+    "test": "server",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ajax"
+  ],
+  "author": "lyubomyr",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0"
+  }
+}
